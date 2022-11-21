@@ -1,8 +1,12 @@
-function App() {
-  return (
-    <div className="App">
-    </div>
-  );
-}
+import React from 'react';
+import { Initial } from './pages/Initial';
+import { GlobalStyles } from './pages/GlobalStyles'
 
-export default App;
+export const App = () => {
+  return (
+    <>
+      <GlobalStyles />
+      <Initial />
+    </>
+  )
+}
