@@ -8,10 +8,15 @@ export const Container = styled.div`
 `
 
 export const ImageContainer = styled.div`
-  background-color: black;
   flex-basis: 60%;
+  overflow: hidden;
 `
 
 export const IntroductionContainer = styled.div`
-  
+  flex-basis: 40%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 50px 100px 0px 100px;
 `
