@@ -1,12 +1,19 @@
 import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Initial } from './pages/Initial';
-import { GlobalStyles } from './pages/GlobalStyles'
+import { Dashboard } from './pages' 
+import { GlobalStyles } from './GlobalStyles'
 
 export const App = () => {
   return (
-    <>
+    <div className='App'>
       <GlobalStyles />
-      <Initial />
-    </>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Initial />}/>
+          <Route path="/dashboard" element={<Dashboard />}/>
+        </Routes>
+      </BrowserRouter>
+    </div>
   )
 }
