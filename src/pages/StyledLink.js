@@ -1,6 +1,6 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import styled from 'styled-components';
+import React from 'react'
+import { Link } from 'react-router-dom'
+import styled from 'styled-components'
 
 
 const StyledLink = styled(Link)`
@@ -9,7 +9,7 @@ const StyledLink = styled(Link)`
     &:focus, &:hover, &:visited, &:link, &:active {
         text-decoration: none;
     }
-`;
+`
 
 // eslint-disable-next-line import/no-anonymous-default-export
-export default (props) => <StyledLink {...props} />;
+export default (props) => <StyledLink {...props} />

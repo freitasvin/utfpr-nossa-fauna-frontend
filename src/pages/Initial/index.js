@@ -1,8 +1,8 @@
-import React from "react";
-import { SquaredButton } from "../../components/Buttons/SquaredButton";
-import { TextMedium, TextLight } from "../../components/Texts";
-import { FullPage, TextWrapper, ButtonWrapper, ImageWrapper } from "../../components/Wrappers";
-import { Container, ImageContainer, IntroductionContainer } from "./styles";
+import React from "react"
+import { SquaredButton } from "../../components/Buttons/SquaredButton"
+import { TextMedium, TextLight } from "../../components/Texts"
+import { FullPage, TextWrapper, ButtonWrapper, ImageWrapper } from "../../components/Wrappers"
+import { Container, ImageContainer, IntroductionContainer } from "./styles"
 
 import logoUtf from '../../Images/utfpr-dv.png';
 import logoParque from '../../Images/parque.png'

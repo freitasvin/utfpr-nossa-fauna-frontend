@@ -1,6 +1,6 @@
-import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { Initial } from './pages/Initial';
+import React from 'react'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { Initial } from './pages/Initial'
 import { Dashboard } from './pages' 
 import { GlobalStyles } from './GlobalStyles'
 
