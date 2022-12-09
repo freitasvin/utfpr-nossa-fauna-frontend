@@ -1,1 +1,1 @@
-export { CommonInput } from './CommonInput'
+export { IconInput } from './IconInput'

@@ -1,8 +1,7 @@
 import React from "react"
 import { TextField, InputAdornment } from "@mui/material"
-import SearchIcon from '@mui/icons-material/Search'
 
-export const CommonInput = ({ style }) => {
+export const IconInput = ({ style, icon }) => {
   return (
     <TextField 
       variant='filled'
@@ -17,7 +16,7 @@ export const CommonInput = ({ style }) => {
       InputProps={{
         startAdornment: 
         <InputAdornment position="start">
-          <SearchIcon fontSize='medium'/>
+          {icon}
         </InputAdornment>,
       }}
     >
