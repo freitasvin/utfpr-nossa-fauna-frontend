@@ -17,7 +17,6 @@ export const HeaderRegister = styled.div`
 
 export const FormRegister = styled.form`
     background-color: #79B158;
-    height: 100vh;
     padding: 42px 0;
 `
 
