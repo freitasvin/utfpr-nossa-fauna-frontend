@@ -8,6 +8,7 @@ export const Container = styled.div`
     height: 60px;
     background-color: #004719;
     padding: 0 10px;
+    border-bottom: 2px solid #EF9A41;
 `
 
 export const IntroductionContainer = styled.div`

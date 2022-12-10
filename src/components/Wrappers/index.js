@@ -1,4 +1,6 @@
 export { TextWrapper } from './TextWrapper'
 export { FullPage } from './FullPage'
 export { ButtonWrapper } from './ButtonWrapper'
+export { InputWrapper } from './InputWrapper'
 export { ImageWrapper } from './ImageWrapper'
+export { CardWrapper } from './CardWrapper'
