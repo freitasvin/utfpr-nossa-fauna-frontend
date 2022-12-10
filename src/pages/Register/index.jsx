@@ -3,10 +3,11 @@ import {HeaderRegister,ContainerRegister, FormRegister, GridRegister, SelectRegi
 import { TextMedium, TextLight } from "../../components/Texts"
 import { Grid, TextField, InputBase } from "@mui/material"
 import {Header} from '../../components/Header'
+import { FullPage } from "../../components/Wrappers"
 
 export const Register = () => {
     return (
-        <>
+        <FullPage style={{backgroundColor: '#79B158'}}>
             <Header/>
             <ContainerRegister>
                 <Container>
@@ -162,6 +163,6 @@ export const Register = () => {
                     </FooterRegister>
                 </Container>
             </FormRegister>
-        </>
+        </FullPage>
     )
 }
