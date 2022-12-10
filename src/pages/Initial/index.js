@@ -54,7 +54,7 @@ export const Initial  = () => {
               </TextLight>
             </TextWrapper>
 
-            <ImageWrapper>
+            <ImageWrapper style={{ width: '180px' }}>
               <img src={logoUtf} alt="logo utfpr" style={{ width: '100%' }}/>
             </ImageWrapper>
           </IntroductionContainer>

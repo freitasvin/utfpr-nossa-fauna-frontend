@@ -1,11 +1,10 @@
 import React from "react"
 import { Button } from "@mui/material"
 
-export const SquaredButton = ({ text, size = 'large', style }) => {
+export const SquaredButton = ({ text, style }) => {
   return (
     <Button 
       variant="contained"
-      size={size}
       sx={
         {
           border: '1px solid #899E56',
