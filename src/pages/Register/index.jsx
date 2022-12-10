@@ -62,7 +62,7 @@ export const Register = () => {
 
                         <InputBase
                             id="outlined-basic" 
-                            placeholder="Haitat"
+                            placeholder="Habitat"
                             variant="outlined" 
                             sx={
                                 {
