@@ -1,7 +1,7 @@
 import { Container } from "@mui/system"
 import {HeaderRegister,ContainerRegister, FormRegister, GridRegister, SelectRegister, FooterRegister} from "./styles"  
-import { TextMedium, TextLight } from "../../components/Texts"
-import { Grid, TextField, InputBase } from "@mui/material"
+import { TextMedium } from "../../components/Texts"
+import { InputBase } from "@mui/material"
 import {Header} from '../../components/Header'
 import { FullPage } from "../../components/Wrappers"
 

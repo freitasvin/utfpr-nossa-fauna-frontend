@@ -5,6 +5,7 @@ import { CommonButton } from "../../components/Buttons"
 import { IconInput } from "../../components/TextFields"
 import { FullPage, InputWrapper, ButtonWrapper, CardWrapper } from "../../components/Wrappers"
 import { AnimalCard } from "../../components/Cards/AnimalCard"
+import StyledLink from '../StyledLink'
 
 import SearchIcon from '@mui/icons-material/Search';
 
@@ -14,10 +15,10 @@ export const Dashboard = () => {
     <FullPage>
       <Header />
       <OptionsContainer>
-        <ButtonWrapper style={{
-          marginRight: '20px'
-        }}>
-          <CommonButton text="Cadastrar +" />
+        <ButtonWrapper style={{ marginRight: '20px' }}>
+          <StyledLink to="/register">
+            <CommonButton text="Cadastrar +"/>
+          </StyledLink>
         </ButtonWrapper>
         <InputWrapper>
           <IconInput icon={<SearchIcon fontSize='medium'/>}/>

@@ -13,7 +13,7 @@ export const OptionsContainer = styled.div`
 
 export const CardContainer = styled.div`
     width: 100%;
-    margin-top: 50px;
+    margin-bottom: 50px;
 `
 
 export const ContentContainer = styled.div`
