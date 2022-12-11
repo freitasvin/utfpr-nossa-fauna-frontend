@@ -10,14 +10,30 @@ export const IconInput = ({ style, icon }) => {
       sx={
         {
           width: '200px',
+          height: '55px',
+          backgroundColor: '#78B353',
+          borderRadius: '5px',
+          "& label": {
+            color: 'white',
+            "&.Mui-focused": {
+              color: 'white'
+            },
           ...style
+          }
         }
       }
       InputProps={{
         startAdornment: 
-        <InputAdornment position="start">
+        <InputAdornment 
+          position="start"
+          sx={{color: 'white'}}
+        >
           {icon}
         </InputAdornment>,
+
+        style: {
+          color: 'white'
+        },
       }}
     >
     </TextField>
