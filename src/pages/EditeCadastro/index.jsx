@@ -5,14 +5,14 @@ import { InputBase } from "@mui/material"
 import {Header} from '../../components/Header'
 import { FullPage } from "../../components/Wrappers"
 
-export const Register = () => {
+export const EditCadastro = () => {
     return (
         <FullPage style={{backgroundColor: '#79B158'}}>
             <Header/>
             <ContainerRegister>
                 <Container>
                     <HeaderRegister>
-                        <TextMedium>CADASTRO</TextMedium>
+                        <TextMedium>ATUALIZAR CADASTRO</TextMedium>
                     </HeaderRegister>
                 </Container>
             </ContainerRegister>
@@ -145,7 +145,7 @@ export const Register = () => {
                                 <div class="image-input">
                                     <input type="file" accept="image/*" id="imageInput"/>
                                     <label for="imageInput" class="image-button">
-                                        <img src="https://cdn-icons-png.flaticon.com/512/1829/1829415.png" class="image-preview"/>
+                                        <img src="https://cdn.pixabay.com/photo/2019/01/04/18/17/ounce-3913742_960_720.jpg" class="image-preview"/>
                                     </label>
                                     
                                 </div>
@@ -156,14 +156,14 @@ export const Register = () => {
                                 <div class="image-input">
                                     <input type="file" accept="image/*" id="imageInput"/>
                                     <label for="imageInput" class="image-button">
-                                        <img src="https://cdn-icons-png.flaticon.com/512/1829/1829415.png" class="image-preview"/>
+                                        <img src="https://i.pinimg.com/736x/c5/30/e4/c530e41aa441a7d59a35494f5f204cb2.jpg" class="image-preview"/>
                                     </label>
                                     
                                 </div>
                             </div>
                         </div>
                         <div className="btn-cad">
-                            <button>CADASTRAR</button>
+                            <button>ATUALIZAR</button>
                         </div>
 
                     </FooterRegister>

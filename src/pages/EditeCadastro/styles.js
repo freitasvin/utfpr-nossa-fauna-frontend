@@ -97,15 +97,18 @@ export const FooterRegister = styled.div`
             display: flex;
             border-radius: 12px;
             box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-            padding: 32px;
-            align-items: center;
-            justify-content: center;
+            
             background-color: #ffff;
             cursor: pointer;
+            overflow: hidden;
+            align-items: center;
+            justify-content: center;
+    
 
             img{
+                width: 100%;
                 cursor: pointer;
-                width: 72px;
+                padding: 22px;
             }
         }
     }
